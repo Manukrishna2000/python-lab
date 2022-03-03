@@ -1,0 +1,10 @@
+dic={83:'manu',90:'marjan',86:'liyana'}
+print(dic)
+newdic=sorted(dic.values())
+print(newdic)
+newdic=sorted(dic.keys())
+print(newdic)
+newdic=sorted(dic.items())
+print(newdic)
+newdic=dict(sorted(dic.items(),reverse=True))
+print(newdic)
